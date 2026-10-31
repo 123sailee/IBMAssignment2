@@ -1,0 +1,31 @@
+
+DATA CLEANING REPORT
+====================================
+
+Project: Enterprise Data Preparation
+Dataset: IBM HR Analytics Employee Attrition
+
+1. DATASET OVERVIEW
+Original Rows: 1470
+Original Columns: 35
+
+2. MISSING VALUE ANALYSIS
+Original Missing Values: 0
+Remaining Missing Values: 0
+
+3. DUPLICATE ANALYSIS
+Original Duplicate Records: 0
+Remaining Duplicate Records: 0
+
+4. OUTLIER DETECTION
+Method: Interquartile Range (IQR)
+Potential outliers were identified and reported.
+Valid employee records were not automatically deleted.
+
+5. DATASET AFTER CLEANING
+Rows: 1470
+Columns: 35
+
+6. CONCLUSION
+Missing values and duplicate records were handled.
+Potential outliers were identified for further review.

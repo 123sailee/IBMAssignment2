@@ -1,0 +1,51 @@
+
+PREPROCESSING PIPELINE DOCUMENTATION
+======================================
+
+PROJECT:
+Enterprise Data Preparation for Employee Attrition
+
+TOOLS:
+Python, Pandas, NumPy, Scikit-learn
+
+PIPELINE COMPONENTS:
+
+1. DATA IMPORT
+Import the IBM HR Analytics dataset.
+
+2. DATA CLEANING
+Handle missing values and duplicates.
+
+3. OUTLIER DETECTION
+Identify potential outliers using IQR.
+
+4. FEATURE ENGINEERING
+Create TotalSatisfaction, TenureRatio
+and CareerStartAge.
+
+5. NUMERICAL PREPROCESSING
+SimpleImputer using median.
+StandardScaler for numerical scaling.
+
+6. CATEGORICAL PREPROCESSING
+SimpleImputer using most frequent value.
+OneHotEncoder for categorical encoding.
+
+7. COLUMN TRANSFORMATION
+ColumnTransformer combines both preprocessing
+pipelines.
+
+8. PIPELINE EXECUTION
+Scikit-learn Pipeline combines preprocessing
+operations into a reusable workflow.
+
+9. EXPORT
+Save cleaned and processed datasets as CSV files.
+
+NOTE:
+For future predictive modelling, fit the
+preprocessing pipeline on training data only.
+
+CONCLUSION:
+The pipeline provides a structured and reusable
+approach to HR data preparation.

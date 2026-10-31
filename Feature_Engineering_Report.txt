@@ -1,0 +1,39 @@
+
+FEATURE ENGINEERING REPORT
+====================================
+
+1. PROJECT
+Enterprise Data Preparation for Employee Attrition
+
+2. FEATURES CREATED
+
+A. TotalSatisfaction
+Sum of employee environment, job,
+relationship and work-life balance satisfaction.
+
+B. TenureRatio
+YearsAtCompany divided by TotalWorkingYears.
+Zero is assigned when TotalWorkingYears is zero.
+
+C. CareerStartAge
+Age minus TotalWorkingYears.
+
+3. CATEGORICAL ENCODING
+Method: One-Hot Encoding
+
+4. NUMERICAL SCALING
+Method: StandardScaler
+
+5. TARGET VARIABLE
+Attrition:
+Yes = 1
+No = 0
+
+6. FINAL DATASET
+Original Feature Count: 33
+Processed Feature Count: 54
+
+7. CONCLUSION
+Feature engineering and preprocessing were
+performed to prepare the HR dataset for
+machine learning applications.
